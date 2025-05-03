@@ -6,11 +6,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <Switch
+    <androidx.appcompat.widget.SwitchCompat
         android:id="@+id/theme_switch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Enable Dark Theme" />
+        android:text="@string/enable_dark_theme" />
 
     <SeekBar
         android:id="@+id/volume_seekbar"
@@ -23,7 +23,7 @@
         android:id="@+id/volume_value"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Volume: 50"
+        android:text="@string/volume_50"
         android:layout_marginTop="16dp"
         android:textSize="18sp" />
 </LinearLayout>
