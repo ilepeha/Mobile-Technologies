@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SmartInfoHub</string>
+    <string name="volume_label">Volume: %1$d</string>
+    <string name="home_title">Home Screen</string>
+    <string name="choose_option">Choose Option</string>
+    <string name="open_browser">Open Google</string>
+</resources>
